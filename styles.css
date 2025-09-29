@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  background-image: 
+    repeating-linear-gradient(0deg, #1b1b1b 0%, #1b1b1b 5px, #111 5px, #111 10px),
+    repeating-linear-gradient(90deg, #1b1b1b 0%, #1b1b1b 5px, #111 5px, #111 10px);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #000;
+}
+
+.logo {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.trading-values {
+  margin: 40px 0;
+}
+
+/*.game-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}*/
+
+
+
+/* Container for images */
+.image-row {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 20px; /* Space between the images */
+  margin: 40px 0; /* Margin above and below the images */
+}
+
+/* Image styling */
+.game-icon {
+  width: 100px; /* Image width */
+  height: 100px; /* Image height */
+  border-radius: 10px; /* Rounded corners */
+  border: 3px solid white; /* White border around the image */
+  object-fit: cover; /* Ensure the images don't get stretched */
+}
+
+
+
+
+.game-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.trading-values h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #bbb;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #555;
+}
+.discord-section {
+  background-color: #222;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.discord-section h3 {
+  font-size: 36px;
+}
+
+.discord-description {
+  font-size: 18px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.join-button {
+  display: inline-block;
+  background-color: #7289da;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.join-button:hover {
+  background-color: #5a6ebf;
+}
+
+.about-us {
+  padding: 40px;
+}
+
+.about-us h3 {
+  font-size: 28px;
+}
+
+.about-us p {
+  font-size: 16px;
+  color: #bbb;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  color: #666;
+  font-size: 14px;
+}
+
+.dmca-badge {
+  margin-top: 10px;
+  width: 80px;
+}
+
+.watermark {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; 
+  background: url('/images/TRADE_ux.png') repeat-x; 
+  opacity: 0.2; 
+  z-index: 0;
+  pointer-events: none; 
+  background-size: contain; 
+}
